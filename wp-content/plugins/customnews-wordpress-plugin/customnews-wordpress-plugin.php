@@ -1,16 +1,21 @@
+<?php
 /*
- * Plugin Name:       My Basics Plugin
- * Plugin URI:        https://example.com/plugins/the-basics/
- * Description:       Handle the basics with this plugin.
- * Version:           1.10.3
- * Requires at least: 5.2
- * Requires PHP:      7.2
- * Author:            John Smith
- * Author URI:        https://author.example.com/
- * License:           GPL v2 or later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Update URI:        https://example.com/my-plugin/
- * Text Domain:       my-basics-plugin
- * Domain Path:       /languages
- * Requires Plugins:  my-plugin, yet-another-plugin
+* Plugin Name: Custom News Plugin
+* Plugin URI: https://www.customnews.com
+* Description: This is a custom news plugin for WordPress.
+* Version: 1.0.0
+* Author: Teshager Worku
+* Author URI: https://www.customnews.com
+* License: GPL2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
+* Text Domain: customnews-wordpress-plugin
+* Domain Path: /languages
+* Requires at least: 5.2 
+* Tested up to: 5.8
  */
+
+// Exit if accessed directly
+if (!defined('ABSPATH')) {
+    exit;
+}
+
